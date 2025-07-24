@@ -160,9 +160,20 @@ justify-content: center;
 gap: 60px;
 margin-top: 200px;
 }
+.festun-div-img{
+position: relative;
+}
 .festun-img{
 width: 540px;
 height: 597px;
+
+}
+.festun-trust{ 
+   position: absolute;
+width: 300px;
+height: 300px;
+top: -130px;
+right: -100px;
 }
 
 
@@ -299,6 +310,42 @@ align-items: center;
 
 
 
+/* footer section two styles */
+.footer-two{
+display: flex;
+justify-content: space-around;
+padding: 50px 150px 50px 150px;
+ 
+}
+
+.footer-logo{
+ width: 135px;
+height: 82px;
+
+}
+
+.footer-logo-text{
+font-size: 22px;
+font-weight: 400; 
+}
+
+
+
+.footer-list{
+font-size: 16px;
+font-weight: 600;
+list-style: none;
+margin-bottom: 32px;
+}
+
+
+.footer-icon{
+ width: 36px;
+height: 36px;
+margin-left: 32px; 
+}
+
+
 
 
 
@@ -398,6 +445,10 @@ grid-template-rows: repeat(4 , auto);
   
   }
 
+.festun-trust{ 
+  display: none;
+}
+
   /* last section styles */
   
 
@@ -434,6 +485,14 @@ grid-template-rows: repeat(4 , auto);
     font-size: 22px;
     font-weight: 700;
     text-align: center;
+  }
+
+
+  .footer-two{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 20px;
   }
 
 }
