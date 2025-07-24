@@ -152,9 +152,31 @@ font-weight: 600;
   background-color: gray;
 }
 
+/* festun section styles */
+
+.festun{
+display: flex;
+justify-content: center;
+gap: 60px;
+margin-top: 200px;
+}
+.festun-img{
+width: 540px;
+height: 597px;
+}
 
 
+.festun-titel{
+font-size: 50px;
+font-weight: 700;
 
+}
+.festun-text{
+font-size: 22px;
+font-weight: 400;
+
+
+}
 
 
 
@@ -239,6 +261,21 @@ grid-template-rows: repeat(4 , auto);
     width: 171px;
     height: 40px;
    
+  }
+
+  /* festun section styles */
+
+  .festun{
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+  .festun-img{
+    width: 358px;
+    height: auto;
+ margin-left: 15%;
+  
   }
 
 }
