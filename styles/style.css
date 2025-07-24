@@ -257,6 +257,49 @@ margin-left: 40%;
 
 
 
+/* footer section style */
+
+
+.footer-one{
+width: 1440px;
+height: 533px;
+background-image: url(../images/news-letter-bg.png); 
+margin-left: 2%;
+}
+
+.footer-one-titel{
+color: white;
+font-size: 50px;
+font-weight: 700;
+text-align: center;
+padding-top: 199px;
+}
+
+.footer-form{
+justify-self: center;
+align-items: center;
+}
+.footer-email{
+  width: 400px;
+  height: 20px;
+  border: none;
+}
+
+.submit-btn{
+  width: 100px;
+  height: 20px;
+  background-color: orangered;
+  color: white;
+  border: none;
+}
+
+.submit-btn:hover{
+  background-color: gray;
+}
+
+
+
+
 
 
 
@@ -378,6 +421,19 @@ grid-template-rows: repeat(4 , auto);
     width: 466px;
     height: 272px;
      margin-left: 5%;
+  }
+
+  /* footer section styles */
+
+  .footer-one{
+ width: 512px;
+  height: 275px;
+  background-image: url(../images/news-letter-bg.png);
+  }
+  .footer-one-titel{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
   }
 
 }
