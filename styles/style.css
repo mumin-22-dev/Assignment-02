@@ -82,6 +82,85 @@ height: 355px;
 }
 
 
+
+
+/* main styles part */
+
+.main-titel{
+font-size: 50px;
+font-weight: 700;
+text-align: center;  
+}
+.main-text{
+font-size: 22px;
+font-weight: 400;
+text-align: center;    
+}
+
+/* cards styles */
+
+.cards{
+  
+display: grid;
+grid-template-columns: repeat(4 , 1fr);
+grid-template-rows: repeat(2 , auto);
+justify-self: center;
+align-items: center;
+gap: 20px;   
+}
+
+
+.card{
+width: 270px;
+height: 514px;
+margin-bottom: 30px;
+
+
+
+   
+}
+.card-img{
+width: 270px;
+height: 322px; 
+
+
+}
+
+.card-titel{
+font-size: 22px;
+font-weight: 500; 
+text-align: center;   
+}
+
+.card-price{
+font-size: 22px;
+font-weight: 700;
+text-align: center;    
+}
+
+.card-btn{
+width: 270px;
+height: 70px;
+background: rgb(233, 90, 8);
+border: none;
+color: white; 
+font-size: 16px;
+font-weight: 600;   
+}
+
+.card-btn:hover{
+  background-color: gray;
+}
+
+
+
+
+
+
+
+
+
+
 /* mobile responsibe view  */
 
 
@@ -139,7 +218,27 @@ height: 355px;
     font-size: 14px;
     font-weight: 400;
   }
+
+  /* card styles  */
+  .cards{
+display: grid;
+grid-template-columns: repeat(2 , 1fr);
+grid-template-rows: repeat(4 , auto);
+  }
+  .card{
+    width: 171px;
+    height: 312px;
+  margin-top: 30px;
+  }
+  .card-img{
+    width: 171px;
+    height: 196px;
+   
+  }
+  .card-btn{
+    width: 171px;
+    height: 40px;
+   
+  }
+
 }
-
-
-
